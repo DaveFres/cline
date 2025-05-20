@@ -1,5 +1,22 @@
 # Changelog
 
+## 3.17.0
+
+### Minor Changes
+
+-   ee9ddef: Put all the navigation state and message handling and navigation functions in the extension state context instead of the app.tsx
+-   e315551: Add stale workflow
+-   7a24c10: Migrate toggleClineRule to protobus
+-   c47503a: migrate accountLogoutClicked to protobus
+-   43357c1: Migrate restartMcpServer to protobus
+-   5efbf77: Migrate the deleteMcpServer message to protobus
+
+### Patch Changes
+
+-   c3caec2: togglePlanActMode protobus migration
+-   eb19731: taskCompletionViewChanges protobus migration
+-   644280b: copyToClipboard protobus migration
+
 ## [3.16.1]
 
 -   Add Enable auto approve toggle switch, allowing users to easily turn auto-approve functionality on or off without losing their action settings
